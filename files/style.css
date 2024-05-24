@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#transaction-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#transaction-table th, #transaction-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#transaction-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#transaction-table th {
+    background-color: #4CAF50;
+    color: white;
+    text-align: left;
+}
+
+.green {
+    background-color: #d4edda;
+}
+
+.red {
+    background-color: #f8d7da;
+}
+
+#total-amount {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#transaction-details {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
